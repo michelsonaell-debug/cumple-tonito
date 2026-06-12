@@ -30,6 +30,7 @@ function openGift() {
   setTimeout(() => {
     document.getElementById('start').style.display = 'none';
     document.getElementById('content').classList.remove('hidden');
+    document.getElementById("musica").play();
 
     document.getElementById('photo').src = photos[0];
 
