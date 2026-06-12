@@ -21,6 +21,7 @@ const photos = [
   "fotos/F19.jpg",
   "fotos/F20.jpg"
 ];
+console.log(photos);
 function openGift(){
  document.querySelector('.gift3d').classList.add('open');
  setTimeout(()=>{
