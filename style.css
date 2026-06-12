@@ -1,0 +1,18 @@
+
+body{margin:0;background:#050505;color:#fff;font-family:Arial;text-align:center;overflow-x:hidden}
+#start{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;background:radial-gradient(circle,#500,#000)}
+.hidden{display:none}
+.gift3d{position:relative;width:180px;height:180px;cursor:pointer}
+.box{position:absolute;bottom:0;width:180px;height:120px;background:#8b0000;border-radius:8px}
+.lid{position:absolute;top:25px;width:180px;height:40px;background:#c00;border-radius:8px;transition:.8s}
+.open .lid{transform:rotate(-35deg) translateY(-40px)}
+h1{color:#ff4d4d;text-shadow:0 0 15px red}
+.gallery{display:flex;align-items:center;justify-content:center;gap:10px;margin:25px}
+.gallery img{width:85%;max-width:550px;border-radius:20px;border:4px solid #c00;box-shadow:0 0 25px red}
+button{padding:12px 18px;border-radius:10px;border:none}
+.letter{max-width:750px;margin:40px auto;padding:25px;background:#111;border:2px solid #c00;border-radius:20px}
+#confetti{position:fixed;inset:0;pointer-events:none}
+.heart{position:fixed;bottom:-20px;font-size:22px;animation:f 6s linear forwards}
+@keyframes f{to{transform:translateY(-110vh);opacity:0}}
+.countdown{margin:20px;font-size:20px;color:#ffd1d1}
+audio{margin:15px}
