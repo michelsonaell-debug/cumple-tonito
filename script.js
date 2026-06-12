@@ -1,7 +1,26 @@
 
-const photos=[...Array(20)].map((_,i)=>`fotos/F${i+1}.JPG`);
-let i=0;
-
+const photos = [
+  "fotos/F1.JPG",
+  "fotos/F2.JPG",
+  "fotos/F3.JPG",
+  "fotos/F4.JPG",
+  "fotos/F5.JPG",
+  "fotos/F6.jpg",
+  "fotos/F7.jpg",
+  "fotos/F8.jpg",
+  "fotos/F9.jpg",
+  "fotos/F10.jpg",
+  "fotos/F11.jpg",
+  "fotos/F12.jpg",
+  "fotos/F13.jpg",
+  "fotos/F14.jpg",
+  "fotos/F15.jpg",
+  "fotos/F16.jpg",
+  "fotos/F17.jpg",
+  "fotos/F18.jpg",
+  "fotos/F19.jpg",
+  "fotos/F20.jpg"
+];
 function openGift(){
  document.querySelector('.gift3d').classList.add('open');
  setTimeout(()=>{
