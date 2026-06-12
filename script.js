@@ -30,9 +30,11 @@ function openGift() {
   setTimeout(() => {
     document.getElementById('start').style.display = 'none';
     document.getElementById('content').classList.remove('hidden');
-    document.getElementById("musica").play();
 
     document.getElementById('photo').src = photos[0];
+
+    const musica = document.getElementById('musica');
+    musica.play();
 
     setInterval(heart, 400);
     confetti();
