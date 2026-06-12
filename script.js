@@ -1,5 +1,5 @@
 
-const photos=[...Array(20)].map((_,i)=>`fotos/F1${i+1}.JPG`);
+const photos=[...Array(20)].map((_,i)=>`fotos/F${i+1}.JPG`);
 let i=0;
 
 function openGift(){
