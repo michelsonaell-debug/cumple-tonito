@@ -32,9 +32,15 @@ function openGift(){
  },900);
 }
 
-function next(){i=(i+1)%photos.length;photo.src=photos[i]}
-function prev(){i=(i-1+photos.length)%photos.length;photo.src=photos[i]}
+function next() {
+  i = (i + 1) % photos.length;
+  document.getElementById("photo").src = photos[i];
+}
 
+function prev() {
+  i = (i - 1 + photos.length) % photos.length;
+  document.getElementById("photo").src = photos[i];
+}
 function heart(){
  let h=document.createElement('div');
  h.className='heart'; h.innerHTML='❤️';
